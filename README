@@ -1,0 +1,4 @@
+Descargar BeautifulSoup
+
+Instalar pysqlite:
+sudo aptitude install python-pysqlite2 php5-sqlite

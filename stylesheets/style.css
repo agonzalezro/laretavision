@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+img{
+	border:0;
+}
+
+a:link {
+  color: #0000cc;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: #551a8b;
+}
+
+#map {
+  background-color: #e5e3df;
+  height: 100%;
+}
+
+.loading {
+  color: gray;
+  font-size: medium;
+  padding: 1em;
+}
+
+p.message {
+    width: 300px;
+}
+
+p.user a {
+    color: black;
+}
+
+p.message a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+p.time {
+    font-size: 10px;
+}
+
+img.avatar {
+    margin-right: 8px;
+    width: 69px;
+    height: 69px;
+    float: left;
+}
+#logo{
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+#menu{
+	width:190px;
+	height:190px;
+	padding:5px;
+	position:absolute;
+	top:40px;
+	right:10px;
+	background:url(../images/bubble.png) top right;
+	display:none;
+}
+#menu a{
+	color:#248BCE;
+	font-size:11px;
+	font-family:Verdana, Helvetica;
+}
+
+#menu ul{
+	padding-top:15px;
+}
+
+#menu ul li{
+	list-style:none;
+	margin-bottom:5px;
+}
+#messages{
+	position:absolute;
+	top:20px;
+	right:40%;
+	margin:0;
+	color:#248BCE;
+	font-size:11px;
+	background: url("../images/bubble-message-right.png") top right no-repeat;
+}
+#messages div{
+	height:20px;
+	background: url("../images/bubble-message.png") top left;
+	float:right;
+	padding: 5px 0px 0px 30px;
+	margin:0;
+	margin-right:35px;
+}
